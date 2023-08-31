@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2? family= Inria+Serif:wght@300 & family= Ravi+Prakash & family= Roboto+Mono:wght@200 & display=swap');
+
+h1 {
+    font-family: 'Ravi Prakash', serif;
+}
+
+body {
+    background-color: black;
+    width: 100;
+
+}
+
+header {
+    background-color: #730000;
+}
+
+div {
+    color: aliceblue;   
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar li a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 27px;
+    padding: 30px 26px;
+    float: left;
+    cursor: pointer;
+
+}
+
+
+.sectiontitulo {
+    color: aliceblue;
+    background-color: #730000;
+    font-size: 60px;
+    text-align: center;
+}
+
+.sectionhistoria {
+    color: aliceblue;
+    font-size: 30px;
+}
+
+
+button {
+    color: #730000;
+}
+
+.sectioncontacto {
+    color: aliceblue;
+
+}
+
+.sectionfechas {
+    font-size: 30px;
+    text-align: center;
+}
+
+.sectionmiranos {
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.imagenuno {
+    height: 38.75rem;
+    width: 100%;
+    background-image: url(trotsky_vengaran-ea56f.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.imagendos {
+    height: 38.75rem;
+    width: 100%;
+    background-image: url(guille.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.imagentres {
+    height: 38.75rem;
+    width: 100%;
+    background-image: url(hugo.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.imagencuatro {
+    height: 38.75rem;
+    width: 100%;
+    background-image: url(grano.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.imagencinco {
+    height: 38.75rem;
+    width: 100%;
+    background-image: url(ciuico.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.logoredes {
+    background-color: #730000;
+    text-align: center;
+}
+
+.discografia {
+    display: flex;
+    display: grid;
+    grid-gap: 22px;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center; 
+
+}
+.titulointegrantes{
+    color: aliceblue;
+    background-color: #730000;
+    font-size: 60px;
+    text-align: center;
+
+}
+.integrantes{
+     
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+
+
+.integrantes h3{
+    text-align: center;
+}
+.titulobanda{
+    color: aliceblue;
+    background-color: #730000;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+.grid-banda{
+   display: grid;
+   grid-gap: 22px;
+   grid-template-columns: repeat(3,1fr);
+   
+
+    
+}
+
+.grid-banda img{
+    width: 100%;
+}
+
+grid-banda1{
+    width: 150%;
+}
+
+.navbar-nav.w-100 {
+    
+    
+justify-content: space-between;
+}
+
+
+.navbar-nav.w-100 .nav-item {
+    flex: 1;
+    text-align: center;
+}
+
+
+.navbar-nav.w-100 .nav-item + .nav-item {
+    margin-left: 10px;
+}
+
+     
+     .body{
+        background-color: black;
+     }
+         
+         .navbar {
+        background-color: #800020;
+        color: aliceblue;
+        display: flex
+        ;
+        
+    }
+
+    .imagen {
+        width: 100%;
+    }
+
+    .titulo {
+        background-color: #800020;
+        color: white;
+        padding: 30px;
+        text-align: center;
+        width: 100%;
+    }
+
+    
+
+    .cuadrados {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px;
+    }
+
+    .cuadrado {
+        flex-basis: calc(33.33% - 20px);
+        background-color: #333;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .cuadrado h2 {
+        margin-top: 0;
+    }
+
+    .video-container {
+        position: relative;
+        padding-bottom: 56.25%;
+        padding-top: 25px;
+        height: 0;
+    }
+
+    .video-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    
+    .spotify-container {
+        width: 100%;
+        margin: 20px 0; 
+    }
+
+  
+
+    .logos{
+        background-color: #800020;
+        text-align: center;
+    }
+@media (max-width: 1024px){
+
+    .sectiontitulo {
+        font-size: 40px;
+        
+
+}
+
+.discografia{
+
+    grid-template-columns: repeat(2, 1fr) ;
+
+}
+
+.titulointegrantes{
+    font-size: 40px;
+    
+}
+.integrantes  {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-content: center;
+    
+ }
+
+ .grid-banda{
+    grid-template-columns: repeat(2, 1fr) ;
+    body {
+        background-color: black;
+        color: white;
+    }
+
+    .bordeaux-bg {
+        background-color: #800020;
+    }
+
+    .imagen {
+        width: 100%;
+    }
+
+    .titulo {
+        background-color: #800020;
+        color: white;
+        padding: 30px;
+        text-align: center;
+        width: 100%;
+    }
+
+    
+
+    .cuadrados {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px;
+    }
+
+    .cuadrado {
+        flex-basis: calc(33.33% - 20px);
+        background-color: #333;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .cuadrado h2 {
+        margin-top: 0;
+    }
+
+    .video-container {
+        position: relative;
+        padding-bottom: 56.25%;
+        padding-top: 25px;
+        height: 0;
+    }
+
+    .video-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    
+    .spotify-container {
+        width: 100%;
+        margin: 20px 0; 
+    }
+
+  
+
+    .logos{
+        background-color: #800020;
+        text-align: center;
+    }
+
+}
+@media (max-width: 768px) {
+
+    .navbar {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .navbar li a {
+        padding: 14px 25px;
+        cursor: pointer;
+    }
+
+    .discografia {
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: repeat(2, 1fr) ;
+
+    }
+
+    .discografia div img {
+        width: 100%;
+    }
+
+    .sectiontitulo {
+        font-size: 20px;
+    }
+    .integrantes img {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-content: center;
+       
+    }
+}
+
+.grid-banda{
+    grid-template-columns: repeat(2, 1fr) ;
+
+}
+
+@media (max-width: 425px) 
+
+.sectiontitulo {
+    font-size: 20px;
+}
+
+.titulointegrantes{
+    font-size:20px;
+
+}
+
+.integrantes  {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-content: center;
+    }
+
+.grid-banda{
+     grid-template-columns: repeat(1,1fr);
+    
+}
