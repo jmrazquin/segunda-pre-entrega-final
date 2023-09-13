@@ -1,0 +1,24 @@
+.imagencuatro {
+    @include imagengeneral(no-repeat,contain,38.75rem,100%);
+    background-image: url(grano.jpg);
+    
+  }
+  .sectionfechas {
+    font-size: 30px;
+    text-align:center;
+  }
+  
+  
+  .sectionmiranos {
+    color: $colorletra; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .sectionmirandos2{
+    @extend .sectionmiranos
+    
+  }
+  

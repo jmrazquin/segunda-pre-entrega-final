@@ -1,0 +1,16 @@
+
+
+@mixin imagengeneral($br,$bs,$height,$width)
+{
+    background-repeat: $br;
+    background-size: $bs;
+    height: $height;
+    width: $width;
+}
+
+@mixin medidas($ta,$fs)
+{
+    font-size: $ta;
+    text-align: $fs;
+}
+

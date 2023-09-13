@@ -1,0 +1,29 @@
+.imagen5 {
+    @include imagengeneral(no-repeat,contain,38.75rem,100%);
+    background-image: url(cuico.jpg);
+    
+  }
+  .sectioncontacto {
+    color: $colorletra;
+  
+  }
+  
+  
+  .sectiontitulo {
+    font-size: 60px;
+}
+
+
+footer {
+  .logoredes {
+    background-color: $header-background;
+    text-align: center;
+
+    a {
+      img {
+        width: 50px;
+        height: 50px;
+      }
+    }
+  }
+}

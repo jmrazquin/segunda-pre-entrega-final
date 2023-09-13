@@ -1,0 +1,121 @@
+body {
+  background-image: radial-gradient(#730000, black);
+  font-family: $tipografia;
+  width: 100%;
+}
+
+header {
+  background-color: $header-background;
+}
+
+div {
+  color: $colorletra;
+}
+
+
+.navbar {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+
+  li a {
+    color: $colorletra;
+    text-decoration: none;
+    font-size: $tipografia;
+    padding: 30px 26px;
+    float: left;
+    cursor: pointer;
+  }
+
+  .navbar li a:hover {
+    scale: (1.2);
+
+  }
+
+  .navbar li a:hover {
+    color: black
+  }
+}
+
+
+
+.sectiontitulo {
+  @include medidas(60px, center);
+  color: $colorletra;
+  background-color: $header-background;
+
+}
+
+
+
+
+
+.sectionfechas {
+  font-size: 30px;
+  text-align: center;
+
+  div {
+    text-align: center;
+
+    h2 {
+      color: $colorletra;
+    }
+
+    p {
+      color: $colorletra;
+    }
+
+    .button {
+      background-color: $header-background;
+      color: $colorletra;
+      border: none;
+      padding: 5px 10px;
+
+    }
+  }
+}
+
+.button1 {
+  @extend .button;
+  cursor: pointer;
+}
+
+.sectionmiranos {
+  color: $colorletra;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  h2 {
+    color: $colorletra;
+  }
+
+  iframe {
+    border-radius: 12px;
+  }
+}
+
+
+.imagenuno {
+  @include imagengeneral(no-repeat, contain, 38.75rem, 100%);
+  background-image: url(trotsky_vengaran-ea56f.jpg);
+}
+
+
+
+footer {
+  .logoredes {
+    background-color: $header-background;
+    text-align: center;
+
+    a {
+      img {
+        width: 50px;
+        height: 50px;
+      }
+    }
+  }
+}

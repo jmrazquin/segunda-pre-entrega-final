@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Inria+Serif:wght@300&family=Roboto+Mono:wght@200&display=swap");
+body {
+  background-color: black;
+  font-family: "Ravi Prakash", serif;
+  width: 100%; }
+
+header {
+  background-color: #730000; }
+
+div {
+  color: aliceblue; }
+
+.navbar {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
+  .navbar li a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 27px;
+    padding: 30px 26px;
+    float: left;
+    cursor: pointer; }
+
+.sectiontitulo {
+  color: aliceblue;
+  background-color: #730000;
+  font-size: 60px;
+  text-align: center; }
+
+.sectionfechas {
+  font-size: 30px;
+  text-align: center; }
+  .sectionfechas div {
+    text-align: center; }
+    .sectionfechas div h2 {
+      color: aliceblue; }
+    .sectionfechas div p {
+      color: aliceblue; }
+    .sectionfechas div button {
+      background-color: #730000;
+      color: aliceblue;
+      border: none;
+      padding: 5px 10px;
+      cursor: pointer; }
+
+.sectionmiranos {
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+  .sectionmiranos h2 {
+    color: aliceblue; }
+  .sectionmiranos iframe {
+    border-radius: 12px; }
+
+.imagenuno {
+  height: 38.75rem;
+  width: 100%;
+  background-image: url(trotsky_vengaran-ea56f.jpg);
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+footer .logoredes {
+  background-color: #730000;
+  text-align: center; }
+  footer .logoredes a img {
+    width: 30px;
+    height: 30px; }
+
+.sectionhistoria {
+  color: aliceblue;
+  font-size: 30px; }
+
+.imagendos {
+  height: 38.75rem;
+  width: 100%;
+  background-image: url(guille.jpg);
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.titulointegrantes {
+  color: aliceblue;
+  background-color: #730000;
+  font-size: 60px;
+  text-align: center; }
+
+.integrantes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap; }
+
+.integrantes h3 {
+  text-align: center; }
+
+.grid-banda {
+  display: grid;
+  grid-gap: 22px;
+  grid-template-columns: repeat(3, 1fr); }
+
+.grid-banda img {
+  width: 100%; }
+
+.grid-banda1 {
+  width: 150%; }

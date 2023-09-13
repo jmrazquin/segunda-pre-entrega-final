@@ -1,0 +1,39 @@
+
+.imagentres {
+    @include imagengeneral(no-repeat,contain,38.75rem,100%);
+    background-image: url(hugo.jpg);
+    
+  }
+  
+  .discografia {
+    display: grid;
+    grid-gap: 22px;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+  
+    div {
+      position: relative;
+  
+      img {
+        width: 100%;
+        transition: transform 0.3s ease; 
+  
+        &:hover {transform: scale(1.1);
+        }
+      }
+    }
+  }
+ 
+  footer {
+    .logoredes {
+      background-color: $header-background;
+      text-align: center;
+  
+      a {
+        img {
+          width: 50px;
+          height: 50px;
+        }
+      }
+    }
+  }

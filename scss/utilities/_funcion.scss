@@ -1,0 +1,17 @@
+button {
+    background-color: $header-background;
+    color: $colorletra;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+
+  .sectionmiranos {
+    color: $colorletra; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  
