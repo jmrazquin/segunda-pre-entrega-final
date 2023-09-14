@@ -1,39 +1,42 @@
-
 .imagentres {
-    @include imagengeneral(no-repeat,contain,38.75rem,100%);
-    background-image: url(hugo.jpg);
-    
+  @include imagengeneral(no-repeat, contain, 38.75rem, 100%);
+  background-image: url(hugo.jpg);
+
+}
+
+.sectiontitulo {
+  background-color: $header-background;
+  font-size: 60px;
+  @include titulos(flex, row, space-evenly, wrap);
+}
+
+.discografia {
+  text-align: center;
+
+  div {
+    position: relative;
+
+    img {
+      width: 100%;
+      transition: transform 0.3s ease;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
   }
-  
-  .discografia {
-    display: grid;
-    grid-gap: 22px;
-    grid-template-columns: repeat(3, 1fr);
+}
+
+footer {
+  .logoredes {
+    background-color: $header-background;
     text-align: center;
-  
-    div {
-      position: relative;
-  
+
+    a {
       img {
-        width: 100%;
-        transition: transform 0.3s ease; 
-  
-        &:hover {transform: scale(1.1);
-        }
+        width: 50px;
+        height: 50px;
       }
     }
   }
- 
-  footer {
-    .logoredes {
-      background-color: $header-background;
-      text-align: center;
-  
-      a {
-        img {
-          width: 50px;
-          height: 50px;
-        }
-      }
-    }
-  }
+}

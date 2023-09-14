@@ -1,0 +1,71 @@
+@media (max-width: 1024px) {
+    * {
+        font-size: 40px;
+    }
+}
+
+
+
+
+.discografia {
+
+
+    @media (min-width: 1024px) {
+        display: grid;
+        grid-gap: 22px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+.sectiontitulo {
+
+    background-color: $header-background;
+    font-size: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+
+.grid-banda {
+    @media (min-width: 1024px) {
+        display: grid;
+        grid-gap: 22px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $header-background;
+    padding: 10px 20px;
+
+
+    li {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    li a {
+        text-decoration: none;
+        color: $colorletra;
+        margin-right: 20px;
+        font-size: 18px;
+
+        @media (max-width: 1024px) {
+            font-size: 16px;
+        }
+
+    }
+}

@@ -8,9 +8,10 @@
     width: $width;
 }
 
-@mixin medidas($ta,$fs)
+@mixin titulos($di,$fd,$jc,$fw)
 {
-    font-size: $ta;
-    text-align: $fs;
+    display: $di;
+    flex-direction: $fd;
+    justify-content: $jc;
+    flex-wrap: $fw;
 }
-

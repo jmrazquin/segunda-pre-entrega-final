@@ -42,10 +42,8 @@ div {
 
 
 .sectiontitulo {
-  @include medidas(60px, center);
-  color: $colorletra;
-  background-color: $header-background;
-
+  font-size: 60px;
+  @include titulos(flex, row, space-evenly, wrap)
 }
 
 
